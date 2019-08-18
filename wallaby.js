@@ -93,9 +93,6 @@ module.exports = function(wallaby) {
             return;
           }
   
-          application.architect.test.options.assets.forEach(asset => {
-            app.use(asset.slice(application.sourceRoot.length), express.static(path.join(__dirname, asset)));
-          });
         });
       },
   
