@@ -52,7 +52,8 @@
  *
  */
 
-import './zone-flags.ts';
+ // Cannot use '.ts' extension with wallaby: https://github.com/wallabyjs/public/issues/2181
+import './zone-flags';
 
 /***************************************************************************************************
  * Zone JS is required by default for Angular itself.
